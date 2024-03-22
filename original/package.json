@@ -1,0 +1,17 @@
+{
+  "name": "voicemail-ctr-processor",
+  "version": "1.0.0",
+  "description": "Kinesis Data Stream processor to handle Voicemails via flags during a Contact Flow, and convert the streamed data into a wav file for further processing",
+  "main": "vmx_kvs_to_s3.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1583.0",
+    "ebml": "^3.0.0",
+    "wav": "^1.0.2",
+    "wavefile": "^11.0.0"
+  }
+}
