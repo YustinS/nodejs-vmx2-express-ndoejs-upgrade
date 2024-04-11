@@ -7,3 +7,7 @@ An accompanying blogpost exists exploring some of the thoughts and other details
 NOTE: The modified version also includes a few other alterations, like processing the audio via muLaw format, which allows it to be used as an audio source within Connect. This is left as an interesting aside, however is not really relevant to the overall upgrade as most changes relate to the KVS processing prior to this.
 
 [You can find the blogpost here](https://tech.yustin.nz/aws/connect-voicemail-javascript-sdk-v3-and-kvs/)
+
+\*\* 12/04/2024 Addition
+
+Added a version of the code removing the usage of global scoped variables and general cleanup that still retains functionality, with lowered risk of cross invocation pollution of data
