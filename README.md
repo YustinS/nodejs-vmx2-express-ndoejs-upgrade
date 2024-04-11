@@ -8,6 +8,6 @@ NOTE: The modified version also includes a few other alterations, like processin
 
 [You can find the blogpost here](https://tech.yustin.nz/aws/connect-voicemail-javascript-sdk-v3-and-kvs/)
 
-\*\* 12/04/2024 Addition
+** 12/04/2024 Addition **
 
 Added a version of the code removing the usage of global scoped variables and general cleanup that still retains functionality, with lowered risk of cross invocation pollution of data
